@@ -41,7 +41,7 @@ body {
   position: fixed;
   top: 0;
   right: 0px;
-  background-color: var(--bg-color-6);
+  background-color: var(--bg-color-1);
 }
 .hi_there {
   font-weight: normal;
