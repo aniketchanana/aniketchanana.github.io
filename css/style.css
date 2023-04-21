@@ -5,7 +5,6 @@
 
   --container-pading-xl: 12vw;
   --container-pading-l: 48px;
-  --easing: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 html {
   font-size: 18px;
