@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  .myInfoContainer {
+    display: block;
+  }
+  html {
+    font-size: 12px;
+  }
+  .shortcutLink {
+    padding: 0px 8px;
+  }
+  .portfolio-container {
+    padding: 0px 16%;
+  }
+  .main-header > .shortcutLink:last-child {
+    padding-right: 16px;
+  }
+  .mywiteup_section {
+    width: 100%;
+  }
+  .myImage_container {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .heading_h1 {
+    margin-top: 16px;
+  }
+  #myImage {
+    width: calc(200px + 16vw);
+    height: calc(200px + 16vw);
+  }
+}

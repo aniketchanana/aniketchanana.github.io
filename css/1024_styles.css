@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+  .shortcutLink {
+    padding: 0px 8px;
+  }
+  .portfolio-container {
+    padding: 0px var(--container-pading-l);
+  }
+  .main-header > .shortcutLink:last-child {
+    padding-right: var(--container-pading-l);
+  }
+
+  .mywiteup_section {
+    width: 100%;
+  }
+  .myImage_container {
+    margin-right: 40px;
+  }
+  #myImage {
+    width: calc(200px + 8vw);
+    height: calc(200px + 8vw);
+  }
+}

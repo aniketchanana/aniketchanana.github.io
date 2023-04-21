@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aniket</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sectionStyles.css" />
+    <link rel="stylesheet" href="./css/1024_styles.css" />
+    <link rel="stylesheet" href="./css/768_styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <div class="main-header">
+        <a href="#me" class="shortcutLink">About me 👋</a>
+        <a href="#blogs" class="shortcutLink">Blogs 🤓</a>
+        <a href="#experience" class="shortcutLink">Experience 💻</a>
+        <!-- <a href="#contact" class="shortcutLink">Contact 🤙</a> -->
+        <a class="shortcutLink" style="cursor: pointer" id="theme-btn"> ></a>
+      </div>
+
+      <div class="myInfoContainer">
+        <div class="myImage_container" id="me">
+          <img src="./images/me_light.JPG" alt="my image" id="myImage" />
+        </div>
+        <div class="mywiteup_section">
+          <h1 class="heading_h1 hi_there">Hi there!</h1>
+          I'm Aniket- a software engineer with three years of experience in the
+          MERN stack, I'm dedicated to building products that make a positive
+          impact in people's lives. I'm passionate about problem-solving, and I
+          love using my skills to create innovative solutions that solve complex
+          challenges. My portfolio showcases my ability to create high-quality
+          work that prioritizes user experience, and I'm constantly striving to
+          improve my skills and expand my knowledge. Whether working
+          independently or as part of a team, I'm committed to delivering
+          meaningful solutions that meet the needs of the end-user. I believe
+          that technology has the power to transform lives, and I'm excited to
+          be a part of the process by building products that help people in
+          their day-to-day lives.
+        </div>
+      </div>
+
+      <!-- start work section -->
+      <div class="section">
+        <div class="section_heading">
+          <div class="section_heading__textContainer">
+            <h1 class="section_heading__text1" id="blogs">Recent blogs</h1>
+            <a
+              class="section_heading__text2"
+              href="https://aniketchanana.medium.com/"
+              target="_blank"
+              >Read all blogs</a
+            >
+          </div>
+          <hr style="width: 100%" class="section_heading__horizontalLine" />
+        </div>
+        <div class="article_list">
+          <div class="article_data">
+            <a
+              class="article_link"
+              href="https://aniketchanana.medium.com/how-rocketium-bulk-edits-1000-variants-on-client-side-f61a942c2d94"
+              target="_blank"
+              >How Rocketium does in-browser editing of 10,000 images or
+              videos</a
+            >
+            <div class="tags_container">
+              <span class="stack_tag">#React</span>
+              <span class="stack_tag">#Redux</span>
+              <span class="stack_tag">#Javascript</span>
+            </div>
+          </div>
+          <div class="article_data">
+            <a
+              class="article_link"
+              href="https://javascript.plainenglish.io/clean-code-with-node-js-994e9b6b7e56"
+              target="_blank"
+              >Clean architecture with Node.js</a
+            >
+            <div class="tags_container">
+              <span class="stack_tag">#Node.js</span>
+              <span class="stack_tag">#TypeScript</span>
+            </div>
+          </div>
+          <div class="article_data">
+            <a
+              class="article_link"
+              href="https://aniketchanana.medium.com/bypassing-aws-api-gateway-timeout-21059ee648bd"
+              target="_blank"
+              >Bypassing AWS API gateway timeout</a
+            >
+            <div class="tags_container">
+              <span class="stack_tag">#AWS</span>
+              <span class="stack_tag">#Serverless</span>
+              <span class="stack_tag">#Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of work section -->
+      <!-- Start of experience section -->
+      <div class="section" id="experience">
+        <div class="section_heading">
+          <div class="section_heading__textContainer">
+            <h1 class="section_heading__text1">Work experience</h1>
+          </div>
+          <hr style="width: 100%" class="section_heading__horizontalLine" />
+        </div>
+        <div class="article_list">
+          <div class="article_data">
+            <a class="article_link article_link_no-hover"
+              >Yellow.ai (Dec 2021 - present)</a
+            >
+            <div class="article_description">
+              <p>
+                Building a low code solution to build chat bots (builder), with
+                the help of builder you can drag and drop couple of node and
+                create flow which further can be connected in any way to make a
+                chat bot, previously built marketplace for chat bots, which
+                helps user in importing/exporting chat bot as a templates.
+              </p>
+              <ul style="padding-left: 16px">
+                <li>Built complete marketplace frontend.</li>
+                <li>Built auto suggestions for marketplace search.</li>
+                <li>Built one click import & micro-discovery panels.</li>
+                <li>
+                  Built inline export for bot and its components reduced overall
+                  bot export time (4 clicks)
+                </li>
+                <li>Built private/org level marketplace</li>
+              </ul>
+            </div>
+          </div>
+          <div class="article_data">
+            <a class="article_link article_link_no-hover"
+              >Rocketium (Mar 2020 - Dec 2021)</a
+            >
+            <div class="article_description">
+              <p>
+                Worked with rocketium as a full-stack engineer built campaign
+                product through which marketers can create and run campaign at a
+                large scale following are some of the many features i built at
+                rocketium.
+              </p>
+              <ul style="padding-left: 16px">
+                <li>Built bulk edit for image/video.</li>
+                <li>Built service for image transformation and compression.</li>
+                <li>
+                  Heavily contributed to rocketium in house campaign editor
+                </li>
+                <li>
+                  Built media library (digital asset management system) for
+                  storing images and video.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of experience section -->
+
+      <div class="section" id="contact">
+        <div class="section_heading">
+          <div class="section_heading__textContainer">
+            <h1 class="section_heading__text1">Social</h1>
+          </div>
+          <hr style="width: 100%" class="section_heading__horizontalLine" />
+        </div>
+
+        <div>
+          <a
+            class="btn1"
+            href="https://www.instagram.com/aniketchanana/"
+            target="__blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a
+            class="btn1"
+            href="https://github.com/aniketchanana/"
+            target="__blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="tel:9588195330" class="btn1">
+            <i class="fas fa-mobile-alt"></i>
+          </a>
+
+          <a href="mailto: aniket.chanana@gmail.com" class="btn1">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script/app.js"></script>
+  </body>
+</html>
