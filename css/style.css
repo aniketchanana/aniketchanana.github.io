@@ -166,3 +166,11 @@ body {
   font-size: 1.2rem;
   color: var(--txt-color-3);
 }
+
+.footer {
+  color: var(--txt-color-1);
+  text-align: center;
+  padding: 0px 24px;
+  padding-top: 0px;
+  margin-bottom: 40px;
+}

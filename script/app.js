@@ -69,3 +69,6 @@ themeButton.addEventListener("click", (e) => {
     lightMode();
   }
 });
+document.querySelector(
+  ".footer"
+).innerHTML = `© ${new Date().getFullYear()} by Aniket Chanana`;
