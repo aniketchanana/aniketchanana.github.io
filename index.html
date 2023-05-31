@@ -15,19 +15,7 @@
     />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
   </head>
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-105FC58FCJ"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-105FC58FCJ");
-  </script>
+  <script type="text/javascript" src="./script/mixpanel-init.js"></script>
   <body>
     <div class="portfolio-container">
       <div class="main-header">
@@ -221,7 +209,8 @@
 
       <div class="section footer"></div>
     </div>
-
+    <script src="./script/constant.js"></script>
+    <script src="./script/mixpanel.js"></script>
     <script src="./script/app.js"></script>
   </body>
 </html>

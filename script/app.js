@@ -63,6 +63,7 @@ const darkMode = () => {
 };
 themeButton.addEventListener("click", (e) => {
   e.preventDefault();
+
   if (getTheme() === THEME.LIGHT) {
     darkMode();
   } else {
@@ -72,3 +73,15 @@ themeButton.addEventListener("click", (e) => {
 document.querySelector(
   ".footer"
 ).innerHTML = `© ${new Date().getFullYear()} by Aniket Chanana`;
+
+document.querySelectorAll(".shortcutLink").forEach((ele) => {
+  ele.addEventListener("click", () => {
+    mixpanel.track("Header button clicked clicked", {
+      buttonText: ele.textContent,
+    });
+  });
+});
+
+window.addEventListener("load", () => {
+  mixpanel.track("Site loaded");
+});
