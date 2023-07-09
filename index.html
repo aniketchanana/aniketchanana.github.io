@@ -15,19 +15,7 @@
     />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
   </head>
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-105FC58FCJ"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-105FC58FCJ");
-  </script>
+  <script type="text/javascript" src="./script/mixpanel-init.js"></script>
   <body>
     <div class="portfolio-container">
       <div class="main-header">
@@ -127,15 +115,30 @@
         <div class="article_list">
           <div class="article_data">
             <a class="article_link article_link_no-hover"
-              >Yellow.ai (Dec 2021 - present)</a
+              >Tekion (May 2023 - present)</a
             >
             <div class="article_description">
               <p>
-                Building a low code solution to build chat bots (builder), with
-                the help of builder you can drag and drop couple of node and
-                create flow which further can be connected in any way to make a
-                chat bot, previously built marketplace for chat bots, which
-                helps user in importing/exporting chat bot as a templates.
+                Tekion is a dealer management system which take cares of end to
+                end lifecycle from car getting in inventory to car sale &
+                services, i am working with finance and insurance team, as a
+                frontend engineer, i am responsible for building and maintaining
+                dealer side as well as consumer side application for selling
+                finance and insurance products.
+              </p>
+            </div>
+          </div>
+          <div class="article_data">
+            <a class="article_link article_link_no-hover"
+              >Yellow.ai (Dec 2021 - May 2023)</a
+            >
+            <div class="article_description">
+              <p>
+                Built a low code solution to build chat bots (builder), with the
+                help of it you can drag and drop couple of node and create flow
+                which further can be connected in any way to make a chat bot,
+                also built marketplace for chat bots, which helps user in
+                importing/exporting chat bot as a templates.
               </p>
               <ul style="padding-left: 16px">
                 <li>Built complete marketplace frontend.</li>
@@ -221,7 +224,8 @@
 
       <div class="section footer"></div>
     </div>
-
+    <script src="./script/constant.js"></script>
+    <script src="./script/mixpanel-setup.js"></script>
     <script src="./script/app.js"></script>
   </body>
 </html>
