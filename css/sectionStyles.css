@@ -58,7 +58,7 @@
 .article_link_no-hover {
   color: var(--txt-color-3);
   text-decoration: none !important;
-  cursor: pointer;
+  cursor: initial;
 }
 .article_description {
   color: var(--txt-color-3);
