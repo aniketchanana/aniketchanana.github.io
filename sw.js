@@ -32,7 +32,7 @@ self.addEventListener('activate', (event) => {
       );
     })
   );
-  return event.clients.claim();
+  return self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
